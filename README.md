@@ -19,7 +19,6 @@ Python 3.7
 
 ## How To Use
 
-
 In your Terminal
 
 ```

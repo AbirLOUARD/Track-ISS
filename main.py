@@ -5,6 +5,7 @@ import time
 import webbrowser
 import geocoder
 
+#l'api des astronautes
 url = "http://api.open-notify.org/astros.json"
 response = urllib.request.urlopen(url)
 result = json.loads(response.read())

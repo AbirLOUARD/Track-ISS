@@ -34,6 +34,7 @@ iss.penup()
 
 
 while True :
+    #l'api de la localisation d'ISS
     url = "http://api.open-notify.org/iss-now.json"
     response = urllib.request.urlopen(url)
     result = json.loads(response.read())

@@ -21,7 +21,6 @@ file.write("\n Your current lat / long is: " + str(g.latlng))
 file.close()
 webbrowser.open("iss.txt")
 
-
 screen = turtle.Screen()
 screen.setup(1200, 614)
 screen.setworldcoordinates(-180, -90, 180, 90)
@@ -46,7 +45,6 @@ while True :
     lat =float(lat)
     lon = float(lon)
     print("\n Latitude :" + str(lat), "Longitude :" + str(lon))
-
 
     iss.goto(lon, lat)
     time.sleep(1)

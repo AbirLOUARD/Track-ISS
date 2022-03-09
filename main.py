@@ -31,7 +31,6 @@ iss.shape("ISS.gif")
 iss.setheading(45)
 iss.penup()
 
-
 while True :
     #l'api de la localisation d'ISS
     url = "http://api.open-notify.org/iss-now.json"

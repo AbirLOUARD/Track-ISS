@@ -47,5 +47,3 @@ while True :
 
     iss.goto(lon, lat)
     time.sleep(1)
-
-
